@@ -7,22 +7,26 @@
     {
         "caption" : "Whitespace",
         "command" : "ln_toggle_display",
-        "args": {"action": "WHITE_SPACE"}
+        "args": {"action": "WHITE_SPACE"},
+        "checkbox": true
     },
     {
         "caption" : "Line Number",
         "command" : "ln_toggle_display",
-        "args": {"action": "LINE_NO"}
+        "args": {"action": "LINE_NO"},
+        "checkbox": true
     },
     {
         "caption" : "Indent Guide",
         "command" : "ln_toggle_display",
-        "args": {"action": "INDENT_GUIDE"}
+        "args": {"action": "INDENT_GUIDE"},
+        "checkbox": true
     },
     {
         "caption" : "Gutter",
         "command" : "ln_toggle_display",
-        "args": {"action": "GUTTER"}
+        "args": {"action": "GUTTER"},
+        "checkbox": true
     }
     ]
 }
