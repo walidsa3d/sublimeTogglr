@@ -1,0 +1,29 @@
+[
+{
+    "id" : "togglr",
+    "caption": "Toggle",
+    "children":
+    [
+    {
+        "caption" : "Whitespace",
+        "command" : "ln_toggle_display",
+        "args": {"action": "WHITE_SPACE"}
+    },
+    {
+        "caption" : "Line Number",
+        "command" : "ln_toggle_display",
+        "args": {"action": "LINE_NO"}
+    },
+    {
+        "caption" : "Indent Guide",
+        "command" : "ln_toggle_display",
+        "args": {"action": "INDENT_GUIDE"}
+    },
+    {
+        "caption" : "Gutter",
+        "command" : "ln_toggle_display",
+        "args": {"action": "GUTTER"}
+    }
+    ]
+}
+]
